@@ -6,8 +6,8 @@ import {FaPeopleRoof} from "react-icons/fa6"
 
 function Banner() {
   return (
-    <section className=" lg:max-h-72 max-h-full max-w-7xl -translate-y-24 mx-auto bg-primary px-4 md:px-12 lg:rounded-xl shadow-lg grid grid-cols-2 lg:grid-cols-4 items-center text-alt-100 ">
-      <div className="flex flex-col items-center h-60 lg:h-72 space-y-2 hover:bg-secondary w-fit py-4 md:py-8 px-2 md:px-4 hover:shadow-xl  hover:h-78 hover:rounded-lg hover:-translate-y-8 hover:transform transition-all">
+    <div className=" lg:max-h-72 max-h-full max-w-4xl xl:max-w-5xl -translate-y-24 mx-auto bg-primary px-4 md:px-12 lg:rounded-xl shadow-lg grid grid-cols-2 lg:grid-cols-4 items-center text-alt-100 ">
+      <div className="flex flex-col items-center h-60 lg:h-72 space-y-2 hover:bg-secondary w-fit py-2 md:py-4 px-2 md:px-4 hover:shadow-xl  hover:h-78 hover:rounded-lg hover:-translate-y-8 hover:transform transition-all">
         <GiSkills className=" text-2xl md:text-4xl mb-2" />
         <h1 className=" text-sm md:text-lg font-bold text-center ">
           Expertise interdisciplinaire
@@ -47,7 +47,7 @@ function Banner() {
           sensibilisation à la robotique.
         </p>
       </div>
-    </section>
+    </div>
   );
 }
 

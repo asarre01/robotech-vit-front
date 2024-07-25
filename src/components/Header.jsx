@@ -35,9 +35,13 @@ function Header() {
   });
 
   return (
-    <header className="fixed top-0 z-10 px-6 lg:px-32 py-4 w-screen  flex items-center justify-between backdrop-blur-2xl backdrop-opacity-80 ">
+    <header className="fixed top-0 z-10 px-6 lg:px-32 w-screen  flex items-center justify-between backdrop-blur-2xl backdrop-opacity-80 ">
       <div>
-        <h1 className="text-xl text-primary font-bold">ROBOTECH</h1>
+        <img
+          src={process.env.PUBLIC_URL + "/assets/log_robotech.png"}
+          alt="Logo"
+          className="h-14"
+        />
       </div>
       <div>
         <AiFillRobot
